@@ -1,5 +1,5 @@
 import React from 'react';
-import { LEVELS } from '../../models/levelsEnum';
+import { LEVELS } from '../../models/levelsEnum.js';
 import { Task } from '../../models/taskClass';
 import TaskComponent from '../pure/task';
 // import PropTypes from 'prop-types';

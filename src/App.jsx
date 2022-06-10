@@ -5,6 +5,7 @@ import Ejemplo1 from './hooks/Ejemplo1';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MyComponentWithContext from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
+import Greetingstyled from './components/pure/greetingStyled';
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
         {/* <Ejemplo1></Ejemplo1> */}
         {/* <Ejemplo2></Ejemplo2> */}
         {/* <MyComponentWithContext></MyComponentWithContext> */}
-        <Ejemplo4 name='Eduardo'>
-          {/* Todo lo que hay aqui, es tratado como props.children en cualquier componente */}
+        {/* Todo lo que hay aqui, es tratado como props.children en cualquier componente */}
+        {/* <Ejemplo4 name='Eduardo'>
           <h3>Contenido del props.children</h3>
-        </Ejemplo4>
+        </Ejemplo4> */}
+        <Greetingstyled name='Eduardo'></Greetingstyled>
       </header>
     </div>
   );

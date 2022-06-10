@@ -3,6 +3,9 @@ import { LEVELS } from '../../models/levelsEnum.js';
 import { Task } from '../../models/taskClass';
 import TaskComponent from '../pure/task';
 
+// importamos la hoja de estilos task.scss
+import '../../styles/task.scss';
+
 const TaskListComponent = function () {
   const defaultTask = new Task(
     'Example',

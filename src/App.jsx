@@ -10,18 +10,19 @@ import Greetingstyled from './components/pure/greetingStyled';
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        {/* <TaskListComponent></TaskListComponent> */}
-        {/* Ejemplos de uso de hooks */}
-        {/* <Ejemplo1></Ejemplo1> */}
-        {/* <Ejemplo2></Ejemplo2> */}
-        {/* <MyComponentWithContext></MyComponentWithContext> */}
-        {/* Todo lo que hay aqui, es tratado como props.children en cualquier componente */}
-        {/* <Ejemplo4 name='Eduardo'>
+      {/* <header className='App-header'> */}
+      {/* <TaskListComponent></TaskListComponent> */}
+      {/* Ejemplos de uso de hooks */}
+      {/* <Ejemplo1></Ejemplo1> */}
+      {/* <Ejemplo2></Ejemplo2> */}
+      {/* <MyComponentWithContext></MyComponentWithContext> */}
+      {/* Todo lo que hay aqui, es tratado como props.children en cualquier componente */}
+      {/* <Ejemplo4 name='Eduardo'>
           <h3>Contenido del props.children</h3>
         </Ejemplo4> */}
-        <Greetingstyled name='Eduardo'></Greetingstyled>
-      </header>
+      {/* <Greetingstyled name='Eduardo'></Greetingstyled> */}
+      {/* </header> */}
+      <TaskListComponent />
     </div>
   );
 }
